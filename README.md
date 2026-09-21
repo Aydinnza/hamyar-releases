@@ -22,7 +22,7 @@
 - نسخه‌ها به‌صورت Release با برچسبِ `v<نسخه>` منتشر می‌شوند
   (`v1.66` → فایلِ `hamyar-1.66.apk`).
 - برای هر انتشار، `sha256` فایل در توضیحِ همان Release می‌آید.
-- **متنِ تغییراتِ نسخه** در فایلِ [`update-notes.json`](https://github.com/Aydinnza/hamyar-releases/blob/main/update-notes.json) می‌آید
+- **متنِ تغییراتِ نسخه** در فایلِ [`content/update-notes.txt`](https://github.com/Aydinnza/hamyar-releases/blob/main/content/update-notes.txt) (و آینهٔ `update-notes.txt`)؛ سخن بزرگان در [`content/sokhanan.txt`](https://github.com/Aydinnza/hamyar-releases/blob/main/content/sokhanan.txt). پشتیبانِ قدیمی: [`update-notes.json`](https://github.com/Aydinnza/hamyar-releases/blob/main/update-notes.json) می‌آید
   (کلید = شمارهٔ نسخه، مقدار = لیستِ خطوط). اپ هر بار همین فایل را می‌خواند؛ پس برای
   عوض‌کردنِ متنِ صفحهٔ آپدیت فقط همین فایل را ویرایش کن.
 - آخرین نسخه، هم‌زمان در ردیفِ `app_release` روی سرور اعلام می‌شود؛ اپ از همان
@@ -40,4 +40,5 @@
 | ۱٫۷۱ | ۷۲ | `hamyar-1.71.apk` (+ نسخهٔ سبکِ R8) | ۲۰۲۶-۰۹-۲۱ |
 | ۱٫۷۲ | ۷۳ | `hamyar-1.72.apk` (+ نسخهٔ سبکِ R8) | ۲۰۲۶-۰۹-۲۱ |
 | ۱٫۷۳ | ۷۴ | `hamyar-1.73.apk` (+ نسخهٔ سبکِ R8) | ۲۰۲۶-۰۹-۲۱ |
+| ۱٫۷۵ | ۷۶ | `hamyar-1.75.apk` (+ نسخهٔ سبکِ R8) | ۲۰۲۶-۰۹-۲۱ |
 | ۱٫۷۴ | ۷۵ | `hamyar-1.74.apk` (+ نسخهٔ سبکِ R8) | ۲۰۲۶-۰۹-۲۱ |
